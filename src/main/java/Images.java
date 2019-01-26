@@ -9,14 +9,29 @@ public class Images {
     private File gallery;
     private ArrayList<File> others;
 
+    /**
+     * Get the default image
+     * @return image file
+     * If the image is not found, return Not_Found_Image
+     */
     public File getDefaultImage() {
         return defaultImage;
     }
 
+    /**
+     * Get the gallery image
+     * @return image file
+     * If the image is not found, return Not_Found_Image
+     */
     public File getGallery() {
         return gallery;
     }
 
+    /**
+     * Get all other images
+     * @return image file list
+     * If the image is not found, return Not_Found_Image
+     */
     public ArrayList getOthers() {
         return others;
     }

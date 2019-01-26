@@ -1,8 +1,8 @@
 import org.json.JSONObject;
 
 public class ProductAttributes {
-    Attributes attributes;
-    Images images;
+    private Attributes attributes;
+    private Images images;
 
     public Attributes getAttributes() {
         return attributes;

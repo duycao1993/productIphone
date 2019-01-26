@@ -12,6 +12,9 @@ public class Product {
         return name;
     }
 
+    /**
+     * Get the full product name
+     */
     public String getProductName(){
         return name + " " + productAttributes.getAttributes().getStorage() + " " + productAttributes.getAttributes().getColor();
     }
@@ -24,10 +27,18 @@ public class Product {
         return marketPrice;
     }
 
+    /**
+     * Get all product attributes in JSON form
+     * @return JSONObject
+     */
     public JSONObject getAttributes() {
         return attributes;
     }
 
+    /**
+     * Get all product attributes in Object form
+     * @return ProductAttributes
+     */
     public ProductAttributes getProductAttributes() {
         return productAttributes;
     }
